@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
         <div className='navbar'>
-            <div className='text-[#f42c37] tracking-wider text-3xl font-bold'>
-                <Link to="/">Sea Of Soup</Link>
+            <div className='text-[#b10400]'>
+            Sea Of Soup
             </div>
             <div>
                 <NavLink to="/" >
