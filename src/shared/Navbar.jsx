@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 export const Navbar = () => {
     return (
         <div className='navbar'>
-            <div className='text-[#b10400]'>
+            <div className='text-[#b10400] font-bold text-2xl m-4>
             Sea Of Soup
             </div>
             <div>
