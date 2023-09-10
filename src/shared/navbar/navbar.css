@@ -1,0 +1,20 @@
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-weight: bold;
+    justify-content: space-between;
+    top: 0;
+    gap: 40px;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header.navbar {
+    justify-content: space-between;
+   
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
