@@ -1,16 +1,15 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import'./navbar.css'
+import './navbar.css'
 
 export const Navbar = () => {
     return (
-        <header>
-           
-                <Link to="/" className='font-bold text-2xl text-[#b10400]  p-4'>
-
-                    Sea Of Soup
-                </Link>
-                <nav className='navbar'>
+           <div className='navbar'>
+            <div className='font-bold text-2xl text-[#b10400]  p-4'>
+            <Link to="/">Sea Of Soup</Link>
+            </div>
+               
+                <nav className='links'>
                     <NavLink to="/" >
                         Home
                     </NavLink>
@@ -32,6 +31,6 @@ export const Navbar = () => {
                 </nav>
 
 
-        </header>
+                </div >
     )
 }
