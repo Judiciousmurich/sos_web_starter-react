@@ -1,12 +1,19 @@
-import React from 'react'
+
 
 const Home = () => {
   return (
-    <div>
-      <p>Good Life Makes You Live Good Life</p>
-      <button>Eat Now</button>
-    </div>
-  )
-}
+  
+   <>
+    <div className="bg-gradient-to-r from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.5)] bg-cover bg-center min-h-screen flex items-center justify-center bg-no-repeat">
+  <img src="http://127.0.0.1:5501/media/images/breakfast.jpg" alt="breakfast"  />
 
-export default Home
+  </div>
+  
+  <h1 className="text-4xl font-bold">Welcome to My Website</h1>
+  <p className="text-lg mt-4">This is the homepage of my website.</p>
+
+</>
+  );
+};
+
+export default Home;
