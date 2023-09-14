@@ -23,8 +23,8 @@
     font-size: 18px;
     padding: 0 30px;
 }
-
+/* 
 .active{
-    text-decoration: underline;
+    text-decoration: line-through;
     color: black;
-}
+} */
