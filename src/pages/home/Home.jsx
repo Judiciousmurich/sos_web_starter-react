@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import Menu from "../menu/Menu";
+import Menu from "../menu/MenuCard";
 const Home = () => {
   return (
     <>
