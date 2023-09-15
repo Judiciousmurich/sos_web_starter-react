@@ -20,7 +20,18 @@ const Home = () => {
 
 
 
-<Menu/>
+      <Menu
+        image="http://127.0.0.1:5501/media/images/hamburger.jpg"
+        title="barbecue"
+        description="Savory, flame-kissed barbecue delights with a tantalizing blend of smoky flavors and tender, juicy perfection. Irresistible satisfaction awaits."
+        price="20"
+      
+      />
+      <Menu
+       image="http://127.0.0.1:5501/media/images/hamburger.jpg"
+       title="barbecue"
+       description="Savory, flame-kissed barbecue delights with a tantalizing blend of smoky flavors and tender, juicy perfection. Irresistible satisfaction awaits."
+       price="20"/>
 
 
     </>
