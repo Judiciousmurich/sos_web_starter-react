@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
+import Menu from '../menu/Menu';
 const Home = () => {
   return (
 
@@ -19,7 +20,7 @@ const Home = () => {
 
 
 
-
+<Menu/>
 
 
     </>
