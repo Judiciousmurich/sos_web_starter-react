@@ -4,7 +4,7 @@ const MenuCard = ({ image, title, description, price }) => {
   return (
     <div className="menu-card bg-[#dde0e0] items-center justify-center m-2">
       <div className="menu-card-image-container">
-        <img src={image} alt={title} className="menu-card-image" />
+        <img src={image} alt={title} className="menu-card-image w-full h-full" />
       </div>
       <h3 className="menu-card-title  capitalize font-bold text-2xl mb-4">
         {title}
