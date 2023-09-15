@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import "./menu.css";
+import { Link } from "react-router-dom";
 const MenuCard = ({ image, title, description, price }) => {
   return (
     <div className="menu-card">
@@ -10,7 +10,7 @@ const MenuCard = ({ image, title, description, price }) => {
         {title}
       </h3>
       <p className="menu-card-description ">{description}</p>
-      <Link to=""className="menu-card-cta">
+      <Link to ="" className="menu-card-cta">
         ${price} | order now
       </Link>
     </div>
