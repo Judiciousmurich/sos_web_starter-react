@@ -1,23 +1,14 @@
+const Menu = ({ image, title, description, price }) => {
+  return (
+    <div className="menu-card">
+      <div className="menu-card-image-container">
+        <img src={image} alt={title} className="menu-card-image" />
+      </div>
+      <h3 className="menu-card-title">{title}</h3>
+      <p className="menu-card-description">{description}</p>
+      <a href="#" className="menu-card-cta">${price} | order now</a>
+    </div>
+  );
+};
 
-const Menu = ({ title, menuItems }) => {
-    return (
-      <section className="menu-section">
-        <section className="subtitle" id="menu">
-          {title}
-        </section>
-        <div className="menu-container">
-          {menuItems.map((item, index) => (
-            <MenuCard
-              key={index}
-              image={item.image}
-              title={item.title}
-              description={item.description}
-              price={item.price}
-            />
-          ))}
-        </div>
-      </section>
-    );
-  };
-
-  export default Menu;
+export default Menu;
