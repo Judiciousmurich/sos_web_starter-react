@@ -22,7 +22,7 @@ const Home = () => {
 
       <Menu
         image="http://127.0.0.1:5501/media/images/hamburger.jpg"
-        title="barbecue"
+        title="Barbecue"
         description="Savory, flame-kissed barbecue delights with a tantalizing blend of smoky flavors and tender, juicy perfection. Irresistible satisfaction awaits."
         price="20"
       
@@ -32,6 +32,16 @@ const Home = () => {
        title="Drinks"
        description="Refreshing drinks that quench your thirst with a burst of flavor and cool satisfaction on a hot day."
        price="25"/>
+         <Menu
+       image="http://127.0.0.1:5501/media/images/breakfast.jpg"
+       title="Breakfast"
+       description="Delicious morning meal, featuring a variety of flavors and textures, perfect to kickstart your day with satisfaction."
+       price="30"/>
+        <Menu
+       image="http://127.0.0.1:5501/media/images/breakfast.jpg"
+       title="Breakfast"
+       description="Delicious morning meal, featuring a variety of flavors and textures, perfect to kickstart your day with satisfaction."
+       price="30"/>
 
 
     </>
