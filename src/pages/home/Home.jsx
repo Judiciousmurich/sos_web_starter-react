@@ -43,10 +43,15 @@ const Home = () => {
        description="Savory slices of pizza, a symphony of melted cheese and vibrant toppings, deliver indulgence in every bite."
        price="35"/>
         <Menu
-       image="http://127.0.0.1:5501/media/images/eat-pizza.jpg"
-       title="Pizza"
-       description="Savory slices of pizza, a symphony of melted cheese and vibrant toppings, deliver indulgence in every bite."
-       price="35"/>
+       image="http://127.0.0.1:5501/media/images/chapati.jpg"
+       title="Chapati"
+       description="Chapati: Soft, unleavened flatbread, a staple of Indian cuisine, perfect for scooping up flavorful curries and dishes."
+       price="340"/>
+        <Menu
+       image="http://127.0.0.1:5501/media/images/chapati.jpg"
+       title="Chapati"
+       description="Chapati: Soft, unleavened flatbread, a staple of Indian cuisine, perfect for scooping up flavorful curries and dishes."
+       price="340"/>
 
 
     </>
