@@ -30,7 +30,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="grid">
+      <div className="grid grid-cols-3 gap-6 p-8">
         <Menu
           image="http://127.0.0.1:5501/media/images/hamburger.jpg"
           title="Barbecue"
