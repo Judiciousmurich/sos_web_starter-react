@@ -1,3 +1,4 @@
+import'./menu.css'
 const Menu = ({ image, title, description, price }) => {
   return (
     <div className="menu-card">
