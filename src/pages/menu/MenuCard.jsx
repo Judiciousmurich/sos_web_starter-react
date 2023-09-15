@@ -10,3 +10,4 @@ const MenuCard = ({ image, title, description, price }) => {
       </div>
     );
   };
+  export default MenuCard;
