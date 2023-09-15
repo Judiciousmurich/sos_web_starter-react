@@ -46,12 +46,19 @@ const Home = () => {
        image="http://127.0.0.1:5501/media/images/chapati.jpg"
        title="Chapati"
        description="Chapati: Soft, unleavened flatbread, a staple of Indian cuisine, perfect for scooping up flavorful curries and dishes."
-       price="340"/>
+       price="40"/>
         <Menu
-       image="http://127.0.0.1:5501/media/images/chapati.jpg"
-       title="Chapati"
-       description="Chapati: Soft, unleavened flatbread, a staple of Indian cuisine, perfect for scooping up flavorful curries and dishes."
-       price="340"/>
+       image="http://127.0.0.1:5501/media/images/pancakes.jpg"
+       title="Pancakes"
+       description=
+       "Fluffy pancakes, a breakfast delight, drizzled with syrup and served with a side of fresh berries for a sweet morning."
+       price="45"/>
+            <Menu
+       image="http://127.0.0.1:5501/media/images/grilled-meat.jpg"
+       title="Grilled-Meat"
+       description=
+       "Fluffy pancakes, a breakfast delight, drizzled with syrup and served with a side of fresh berries for a sweet morning."
+       price="45"/>
 
 
     </>
