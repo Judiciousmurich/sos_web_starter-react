@@ -56,7 +56,7 @@ const Menu = () => {
       image="http://127.0.0.1:5501/media/images/fried-chicken.jpg"
       title="Fried-Chicken"
       description="Crispy and succulent fried chicken, seasoned to perfection, offering a delightful blend of flavors and satisfying crunch."
-      price="60"
+      price="65"
     />
   </div>
 
