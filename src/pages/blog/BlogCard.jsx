@@ -1,23 +1,30 @@
+import React from 'react';
 
-const BlogCard = () => {
-    return (
-      <section className="latest-from-our-blog">
-        <h2 className="latest-from-our-blog-section-title" id="blog">
-          Latest from Our Blog
-        </h2>
-        <div className="latest-from-our-blog-master-container">
-          {blogData.map((item, index) => (
-            <BlogPost
-              key={index}
-              imageUrl={item.imageUrl}
-              date={item.date}
-              title={item.title}
-              description={item.description}
-            />
-          ))}
+const BlogCard = ({ imageUrl, date, title, description }) => {
+  return (
+    <div className="latest-from-our-blog-container">
+      <div className="latest-from-our-blog-image-container">
+        <img src={imageUrl} alt={title} className="latest-from-our-blog-img" />
+      </div>
+      <div className="blog-content">
+        <div className="blog-content-date">
+          <svg className="blog-content-date--icon">
+            <use xlinkHref="./media/images/sprite.svg#icon-calendar"></use>
+          </svg>
+          <p className="date">{date}</p>
         </div>
-      </section>
-    );
-  };
-  
-  export default BlogCard;
+        <h4 className="latest-from-our-blog-title">{title}</h4>
+        <p className="latest-from-our-blog-description">{description}</p>
+        <div className="blog-bottom">
+          <a href="#" className="latest-from-our-blog-btn">
+            keep reading &rarr;
+          </a>
+          <div className="blog-participants"></div>
+          {/* Add participant images here */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default BlogCard;
