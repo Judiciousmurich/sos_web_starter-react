@@ -2,7 +2,7 @@
 const BlogContainer = () => {
     return (
       <section className="latest-from-our-blog">
-        <h2 className="latest-from-our-blog-section-title" id="blog">
+        <h2 className="latest-from-our-blog-section-title capitalize" id="blog">
           Latest from Our Blog
         </h2>
         <div className="latest-from-our-blog-master-container">
