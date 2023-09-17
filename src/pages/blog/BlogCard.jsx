@@ -20,7 +20,6 @@ const BlogCard = ({ imageUrl, date, title, description }) => {
             keep reading &rarr;
           </a>
           <div className="blog-participants"></div>
-          {/* Add participant images here */}
         </div>
       </div>
     </div>
