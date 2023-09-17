@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogPost from './BlogPost'; // Import the BlogPost component
+import BlogPost from './BlogPost'; 
 
 const blogData = [
   {
@@ -9,7 +9,7 @@ const blogData = [
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ex soluta unde animi velit excepturi. Fugiat nam aperiam sunt natus.',
   },
-  // Add more blog posts as needed
+
 ];
 
 const BlogContainer = () => {
