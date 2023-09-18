@@ -24,3 +24,39 @@
   
   
   }
+
+  .subtitle{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem auto;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px var(--col-primary);
+    color: #111;
+    position: relative;
+    width: fit-content;
+  }
+
+
+    .subtitle::after{
+      content: "";
+      width: 3rem;
+      height: 4px;
+      position: absolute;
+      top: 1.5rem;
+      right: -3.5rem;
+      background-color: var(--col-primary);
+      border-radius: 300px;
+
+    }
+
+    .subtitle::before{
+      content: "";
+      width: 3rem;
+      height: 4px;
+      position: absolute;
+      top:1.5rem ;
+      left: -3.5rem;
+      background-color: var(--col-primary);
+      border-radius: 300px;
+    }
