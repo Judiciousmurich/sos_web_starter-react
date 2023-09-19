@@ -50,7 +50,7 @@ const Menu = () => {
       image="http://127.0.0.1:5501/media/images/birthday.jpg"
       title="Birthday"
       description="Joyful celebration marking another year of life, filled with laughter, love, and cherished memories shared with dear ones."
-      price="59"
+      price="55"
     />
     <MenuCard
       image="http://127.0.0.1:5501/media/images/fried-chicken.jpg"
