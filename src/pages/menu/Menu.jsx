@@ -44,13 +44,13 @@ const Menu = () => {
       image="http://127.0.0.1:5501/media/images/grilled-meat.jpg"
       title="Grilled-Meat"
       description="Succulent and savory grilled meat, expertly seasoned and cooked to perfection for a mouthwatering dining experience."
-      price="50"
+      price="51"
     />
     <MenuCard
       image="http://127.0.0.1:5501/media/images/birthday.jpg"
       title="Birthday"
       description="Joyful celebration marking another year of life, filled with laughter, love, and cherished memories shared with dear ones."
-      price="55"
+      price="50"
     />
     <MenuCard
       image="http://127.0.0.1:5501/media/images/fried-chicken.jpg"
