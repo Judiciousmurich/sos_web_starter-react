@@ -32,7 +32,7 @@ const Menu = () => {
       image="http://127.0.0.1:5501/media/images/chapati.jpg"
       title="Chapati"
       description="Chapati: Soft, unleavened flatbread, a staple of Indian cuisine, perfect for scooping up flavorful curries and dishes."
-      price="42"
+      price="40"
     />
     <MenuCard
       image="http://127.0.0.1:5501/media/images/pancakes.jpg"
