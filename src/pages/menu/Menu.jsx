@@ -8,7 +8,7 @@ const Menu = () => {
       image="http://127.0.0.1:5501/media/images/hamburger.jpg"
       title="Barbecue"
       description="Savory, flame-kissed barbecue delights with a tantalizing blend of smoky flavors and tender, juicy perfection. Irresistible satisfaction awaits."
-      price="27"
+      price="25"
     />
     <MenuCard
       image="http://127.0.0.1:5501/media/images/dessert.jpg"
