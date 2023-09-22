@@ -54,25 +54,25 @@ const Home = () => {
           image="http://127.0.0.1:5501/media/images/eat-pizza.jpg"
           title="Pizza"
           description="Savory slices of pizza, a symphony of melted cheese and vibrant toppings, deliver indulgence in every bite."
-          price="35"
+          price="36"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/chapati.jpg"
           title="Chapati"
           description="Chapati: Soft, unleavened flatbread, a staple of Indian cuisine, perfect for scooping up flavorful curries and dishes."
-          price="40"
+          price="41"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/pancakes.jpg"
           title="Pancakes"
           description="Fluffy pancakes, a breakfast delight, drizzled with syrup and served with a side of fresh berries for a sweet morning."
-          price="45"
+          price="46"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/grilled-meat.jpg"
           title="Grilled-Meat"
           description="Succulent and savory grilled meat, expertly seasoned and cooked to perfection for a mouthwatering dining experience."
-          price="50"
+          price="51"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/birthday.jpg"
