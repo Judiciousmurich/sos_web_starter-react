@@ -2,7 +2,7 @@ import React from 'react'
 
 const Team = () => {
   return (
-    <div className="font-bold">Team</div>
+    <div className="font-bold tracking-wide">Team</div>
   )
 }
 
