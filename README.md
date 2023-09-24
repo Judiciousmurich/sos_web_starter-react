@@ -1,1 +1,1 @@
-# sos_web_starter-react
+# sos_web_starter
