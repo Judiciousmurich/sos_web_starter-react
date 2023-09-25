@@ -54,7 +54,7 @@ const Home = () => {
           image="http://127.0.0.1:5501/media/images/eat-pizza.jpg"
           title="Pizza"
           description="Savory slices of pizza, a symphony of melted cheese and vibrant toppings, deliver indulgence in every bite."
-          price="35"
+          price="45"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/chapati.jpg"
