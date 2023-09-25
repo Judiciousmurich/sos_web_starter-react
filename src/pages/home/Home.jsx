@@ -72,7 +72,7 @@ const Home = () => {
           image="http://127.0.0.1:5501/media/images/grilled-meat.jpg"
           title="Grilled-Meat"
           description="Succulent and savory grilled meat, expertly seasoned and cooked to perfection for a mouthwatering dining experience."
-          price="50"
+          price="30"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/birthday.jpg"
