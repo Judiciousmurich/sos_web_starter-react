@@ -42,7 +42,7 @@ const Home = () => {
           image="http://127.0.0.1:5501/media/images/dessert.jpg"
           title="Drinks"
           description="Refreshing drinks that quench your thirst with a burst of flavor and cool satisfaction on a hot day."
-          price="60"
+          price="65"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/breakfast.jpg"
