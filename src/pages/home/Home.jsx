@@ -48,13 +48,13 @@ const Home = () => {
           image="http://127.0.0.1:5501/media/images/breakfast.jpg"
           title="Breakfast"
           description="Delicious morning meal, featuring a variety of flavors and textures, perfect to kickstart your day with satisfaction."
-          price="60"
+          price="61"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/eat-pizza.jpg"
           title="Pizza"
           description="Savory slices of pizza, a symphony of melted cheese and vibrant toppings, deliver indulgence in every bite."
-          price="55"
+          price="56"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/chapati.jpg"
