@@ -66,7 +66,7 @@ const Home = () => {
           image="http://127.0.0.1:5501/media/images/pancakes.jpg"
           title="Pancakes"
           description="Fluffy pancakes, a breakfast delight, drizzled with syrup and served with a side of fresh berries for a sweet morning."
-          price="41"
+          price="40"
         />
         <MenuCard
           image="http://127.0.0.1:5501/media/images/grilled-meat.jpg"
