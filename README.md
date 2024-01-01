@@ -4,4 +4,4 @@
 React - A JavaScript library for building user interfaces
 
 # Developer 
-judith muthui
+judith Muthui
